@@ -10,7 +10,7 @@ class VolumeController extends Controller
 
     public function Volume(Request $request){
         
-        $phi = 3.14;
+        $phi = 22/7;
         $jarijari = $request->input('r');
         $tinggi = $request->input('t');
         $opsi = $request->input('opsi');
